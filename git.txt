@@ -1,0 +1,17 @@
+git常用命令
+
+0.clone git项目
+git clone git://github.com/mallowera/leapcloud.git
+
+1.查看远程仓库
+git remote -v
+
+2.修改origin对应的远程仓库
+git remote add origin ssh://git@github.com:mallowera/leapcloud.git
+
+3.拉取到远程仓库origin到本地
+git pull origin master
+
+4.提交远程仓库origin
+git push -u origin master
+git push -g origin master 强制更新（覆盖）
